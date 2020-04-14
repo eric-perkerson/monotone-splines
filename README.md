@@ -7,7 +7,7 @@ At its core, statistical learning is about generalizing from a known data set to
 
 ## Modeling Monotone Conditional Probabilities
 
-The specific problem solved here is to recover the function f(x) = P(y | x) where y is a binary response to a real-valued predictor x, where we know that f is non-decreasing. The restriction that f be non-decreasing turns out to be quite strong at improving the ability to generalize. The application in mind is to predict the case fatality rate (CFR) of covid-19 conditioned on age using the publically available data from https://github.com/jihoo-kim/Data-Science-for-COVID-19. DISCLAIMER: This is a toy example on a very limited amount of data collected early 
+The specific problem solved here is to recover the function f(x) = P(y | x) where y is a binary response to a real-valued predictor x, where we know that f is non-decreasing. The restriction that f be non-decreasing turns out to be quite strong at improving the ability to generalize. The application in mind is to predict the case fatality rate (CFR) of covid-19 conditioned on age using the publically available data from https://github.com/jihoo-kim/Data-Science-for-COVID-19. DISCLAIMER: This is a toy example on a very limited amount of data collected early in the pandemic. Actual values of the CFR for South Korea are computed on age intervals and [published by the KCDC](https://www.cdc.go.kr/board/board.es?mid=a30402000000&bid=0030&act=view&list_no=366537). Note that this early data overestimates the CFR.
 
 ## Splines
 
