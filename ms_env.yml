@@ -1,0 +1,14 @@
+name: ms
+dependencies:
+  - python=3.9.*
+  - numba
+  - numpy
+  - pandas
+  - cvxopt
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - pathlib
+  - pylint
+  - scipy
+  - pytest
